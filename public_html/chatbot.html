@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instituto Tecnológico de Iguala</title>
+    <link href="/favicon.ico" rel="shortcut icon">
+    <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <style type="text/css">
+ button#widgetIcon {
+    background: #D0021B;
+ </style>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">ITIGUALA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+ INICIO</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">INSTITUCIÓN<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Acción</a></li>
+            <li><a href="#">Otra acción</a></li>
+            <li><a href="#">Algo más aquí</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Enlace separado</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">OFERTA EDUCATIVA<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Acción</a></li>
+            <li><a href="#">Otra acción</a></li>
+            <li><a href="#">Algo más aquí</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Enlace separado</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ESTUDIANTES<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Acción</a></li>
+            <li><a href="#">Otra acción</a></li>
+            <li><a href="#">Algo más aquí</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Enlace separado</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SISTEMA DE GESTIÓN INTEGRADO<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Acción</a></li>
+            <li><a href="#">Otra acción</a></li>
+            <li><a href="#">Algo más aquí</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Enlace separado</a></li>
+          </ul>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </div>
+</nav><br><br><br>
+
+    <main class="page">
+      <div class="container">
+      	
+
+
+      </div>
+    </main>
+
+<br>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Chatboot"
+  agent-id="af983caf-0961-4971-8c4a-734401641935"
+  language-code="es"
+></df-messenger>
+  
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('4tu8ma6sbau5');
+</script>
+  </body>
+</html>
